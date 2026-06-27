@@ -1,0 +1,13 @@
+# Build / internal files — never publish
+_*.html
+_*.ps1
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+*.log
+
+# Safety net: never commit secrets or env files
+.env
+*.key
+credentials*.json
